@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         newPost.entry = entry;
 
         // Append to main
-        main = document.getElementsByTagName("main")[0];
-        main.appendChild(newPost);
+        mainElement = document.getElementsByTagName("main")[0];
+        mainElement.appendChild(newPost);
 
 
 
